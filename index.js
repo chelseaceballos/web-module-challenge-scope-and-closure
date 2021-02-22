@@ -32,7 +32,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
 
   2. Which of the two uses a closure? How can you tell?
   counter1 uses a closure starts on line 41
-  
+
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
      counter1 code is preferable in . counter2 code is preferable in .
@@ -67,8 +67,18 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(/*Code Here*/){
-    /*Code Here*/
+    let count = 0
+    return function(){
+      return Math.random() * (2 - 0) + 0;
+    
+    }
 }
+const newCounter = inning();
+console.log(newCounter());
+console.log(newCounter());
+console.log(newCounter());
+
+
 
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
