@@ -67,16 +67,12 @@ NOTE: This will be a callback function for the tasks below
 */
 
 function inning(/*Code Here*/){
-    let points = 0
-    return function(){
-      return Math.random() * (2 - 0) + 0;
+ return  Math.floor(Math.random() * 3);
     
     }
-}
+
 const newCounter = inning();
-console.log(newCounter());
-console.log(newCounter());
-console.log(newCounter());
+
 
 
 
