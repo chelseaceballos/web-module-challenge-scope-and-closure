@@ -1,5 +1,5 @@
 # Scope and Closure Challenge
-
+chelsea-ceballos (adding this so i can push now and submit)
 The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
 
 ## JavaScript Foundations
