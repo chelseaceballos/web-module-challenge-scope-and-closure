@@ -71,7 +71,9 @@ function inning(/*Code Here*/){
     
     }
 
-const newCounter = inning();
+    console.log(inning);
+
+
 
 
 
@@ -91,11 +93,19 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(inning, number){
-
-
-  return `${inning}: ${score}`
+function finalScore(func, number){
+  var object = {}
+  let home = 0;
+  let away = 0;
+  for (let i = 0; i < number ; i++){
+    home = home + func();
+    away = away + func();
 }
+return {'Home': home, 'Away': away};
+}
+
+  
+// console.log(finalScore(inning(), 9));
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
 Use the getInningScore() function below to do the following:
